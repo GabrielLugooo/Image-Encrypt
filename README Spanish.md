@@ -2,10 +2,10 @@
 
 # IMAGE ENCRYPT
 
-<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20Versión%20Inglés-000000" alt="Versión Inglés" /></a>
-<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20%20Versión%20Español-green" alt="Versión Español" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20Versión%20Inglés-000000" alt="Versión Inglés" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20%20Versión%20Español-green" alt="Versión Español" /></a>
 
-### Objectivos
+### Objetivos
 
 Image Encrypt Es un CLI que encripta y desencripta imágenes png, jpg, jpeg a una imagen sin sentido y le proporciona la clave para desbloquearla más tarde para que tenga el control total de sus imágenes.
 
@@ -75,7 +75,7 @@ ImageEncrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
 Salida:
 
 ```sh
- ImageEncrypt  v0.0.1
+ImageEncrypt  v0.0.1
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -102,7 +102,7 @@ ImageEncrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
 Salida:
 
 ```sh
- ImageEncrypt  v0.0.1
+ImageEncrypt  v0.0.1
 An image encryption node-js cli
 
 ✔ Image read successfully

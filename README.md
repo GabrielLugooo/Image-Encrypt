@@ -2,8 +2,8 @@
 
 # IMAGE ENCRYPT
 
-<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20English%20Version-000000" alt="English Version" /></a>
-<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20Spanish%20Version-green" alt="Spanish Version" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20English%20Version-000000" alt="English Version" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20Spanish%20Version-green" alt="Spanish Version" /></a>
 
 ### Objective
 
@@ -75,7 +75,7 @@ ImageEncrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
 Output:
 
 ```sh
- ImageEncrypt  v0.0.1
+ImageEncrypt  v0.0.1
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -102,7 +102,7 @@ ImageEncrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
 Output:
 
 ```sh
- ImageEncrypt v0.0.1 by theninza
+ImageEncrypt v0.0.1 by theninza
 An image encryption node-js cli
 
 ✔ Image read successfully
