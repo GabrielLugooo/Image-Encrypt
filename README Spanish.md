@@ -19,7 +19,7 @@ Image Encrypt Es un CLI que encripta y desencripta imágenes png, jpg, jpeg a un
 
 ### Technologías Usadas
 
-![Node](https://img.shields.io/badge/NodeJS-05122A?style=for-the-badge&logo=node.js)&nbsp;
+![Static Badge](https://img.shields.io/badge/Node.JS-000000?logo=nodedotjs&logoSize=auto)
 
 ### Vista Previa
 
