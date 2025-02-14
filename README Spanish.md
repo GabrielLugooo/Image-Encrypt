@@ -2,8 +2,8 @@
 
 # IMAGE ENCRYPT
 
-<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20Versión%20Inglés-000000" alt="Versión Inglés" /></a>
-<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20%20Versión%20Español-green" alt="Versión Español" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20%20Versión%20Español-000000" alt="Versión Español" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/ImageEncrypt%20Versión%20Inglés-green" alt="Versión Inglés" /></a>
 
 ### Objetivos
 
