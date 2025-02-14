@@ -1,47 +1,127 @@
 <img align="center" src="https://media.licdn.com/dms/image/v2/D4D16AQGUNxQ7NSC05A/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1738695150340?e=1744243200&v=beta&t=oXX-ixT9bR3dJcYCLv4KBs5wjKFoeP0524kFGHQMYmQ" alt="gabriellugo" />
 
-# CYBERSECURITY LOGS DOCUMENTATION
+# IMAGE ENCRYPT
 
-<a href="https://github.com/GabrielLugooo/CiberSec-Logs-English" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/English%20Logs-000000" alt="English Logs" /></a>
-<a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Spanish%20Logs-green" alt="Spanish Logs" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20English%20Version-000000" alt="English Version" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20Spanish%20Version-green" alt="Spanish Version" /></a>
 
 ### Objective
 
-The Cybersecurity Logs Documentation project aims to centralize and organize various security log records to enhance cybersecurity analysis and threat detection. By compiling logs from different sources, this repository provides a structured dataset for research, training, and real-world security assessments.
-
-The primary goal is to facilitate better understanding of log-based security monitoring, helping cybersecurity professionals, researchers, and enthusiasts analyze patterns, identify anomalies, and improve incident response strategies. The documentation includes detailed explanations of log formats, key security events, and best practices for log management.
-
-This collection serves as a valuable resource for setting up Security Information and Event Management (SIEM) systems, forensic investigations, and automated threat detection mechanisms. It helps users simulate and study attack scenarios based on real-world log data, contributing to proactive cybersecurity defenses.
-
-By consolidating these logs into a single repository, we aim to create a comprehensive knowledge base that supports learning, security tool development, and effective cyber threat mitigation.
+Image Encrypt it's a CLI that encrypts and decrypts png, jpg, jpeg images to a gibberish image and provides you the key to unlock it later so that you have the complete control of your images.
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
+- Node JS Technologies.
+- Protect information in images using encryption and decryption techniques.
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols and security vulnerabilities.
 - Development of critical thinking and problem-solving skills in cybersecurity.
 
-### Tools Used
+### Technologies Used
 
-- Security Information and Event Management (SIEM) systems (Google SecOps and Splunk) for log ingestion and analysis.
-- Network analysis tools (TCPDump, Wireshark) for capturing and examining network traffic.
-- Network analysis and algorythms created with code languages (Linux, SQL, Python) for automatization of capturing, examining and analyze network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+![Node](https://img.shields.io/badge/NodeJS-05122A?style=for-the-badge&logo=node.js)&nbsp;
 
-### Logs Categories:
+### Preview
 
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/Access%20Control" target="_blank" rel="noreferrer noopener">Access Control Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/Audits" target="_blank" rel="noreferrer noopener">Audits Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/IOC%20Indicators" target="_blank" rel="noreferrer noopener">IOC Indicators Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/Incidents" target="_blank" rel="noreferrer noopener">Incidents Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/PASTA" target="_blank" rel="noreferrer noopener">PASTA Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/Phishing" target="_blank" rel="noreferrer noopener">Phishing Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/Risk%20Register" target="_blank" rel="noreferrer noopener">Risk Register Logs</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-English/tree/main/Vulnerability%20Assessment" target="_blank" rel="noreferrer noopener">Vulnerability Assessment Logs</a>
+<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
 
----
+### Installation
+
+```sh
+npm i -g ImageEncrypt
+```
+
+### Usage
+
+```sh
+ImageEncrypt <command> [option]
+```
+
+or run it directly using npx
+
+```sh
+npx ImageEncrypt <command> [option]
+```
+
+#### Commands
+
+```sh
+help  #prints help info
+```
+
+#### Options
+
+```sh
+  -e, --encrypt              # The image to encrypt
+  -d, --decrypt              # The image to decrypt
+  -c, --clear                # Clear the console Default: false
+  --noClear                  # Don't clear the console Default: true
+  -v, --version              # Print CLI version Default: false
+  -k, --key                  # The key to use for decryption Default: false
+  -i, --outputImageFileName  # The output image
+  -p, --outputKeyFileName    # The output key
+```
+
+### Examples
+
+#### Commands
+
+- For encrypting an image myImage.png to encryptedImage.png and saving the key to key.txt:
+
+```sh
+ImageEncrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
+```
+
+Output:
+
+```sh
+ ImageEncrypt  v0.0.1
+An image encryption node-js cli
+
+✔ Image read successfully
+✔ Output image file name is valid
+✔ Output key file name is valid
+✔ Image data read successfully
+✔ Key generated successfully
+✔ Image encrypted successfully
+✔ Image saved successfully
+✔ Key saved successfully
+
+✔  Image encrypted successfully  Image encrypted successfully:
+                                  Encrypted image: encryptedImageName.png
+                                  Key: keyFile.txt
+
+```
+
+- For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png:
+
+```sh
+ImageEncrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
+```
+
+Output:
+
+```sh
+ ImageEncrypt v0.0.1 by theninza
+An image encryption node-js cli
+
+✔ Image read successfully
+✔ Key read successfully
+✔ Decryption successful
+✔ Image saved successfully
+✔  Success  Image decrypted successfully
+
+                        Decrypted Image: decryptedImage.png
+
+```
+
+### Limitations
+
+While encryption and decryption is perfect on the png images. On jpg and jpeg, the operation is not perfect. Jpg and jpeg images are lossy and while encryption and decryption, a few pixels values are changed. The decrypted image is however, very similar to the original image but with a few pixels changed.
+
+Image Encrypt it's a copycat of <a href="https://github.com/theninza/imcrypt">Imcrypt</a> just for educational purpose.
+
+----
 
 <h3 align="left">Connect with me</h3>
 
@@ -63,4 +143,4 @@ By consolidating these logs into a single repository, we aim to create a compreh
 
 <a href="https://linktr.ee/gabriellugooo" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Credits-Gabriel%20Lugo-green" alt="Credits" /></a>
 <img align="center" src="https://komarev.com/ghpvc/?username=GabrielLugoo&label=Profile%20views&color=green&base=2000" alt="GabrielLugooo" />
-<a href="" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/License-MIT-green" alt="Last Edited" /></a>
+<a href="" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" /></a>

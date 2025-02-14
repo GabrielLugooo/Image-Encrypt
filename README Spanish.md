@@ -1,47 +1,127 @@
 <img align="center" src="https://media.licdn.com/dms/image/v2/D4D16AQGUNxQ7NSC05A/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1738695150340?e=1744243200&v=beta&t=oXX-ixT9bR3dJcYCLv4KBs5wjKFoeP0524kFGHQMYmQ" alt="gabriellugo" />
 
-# DOCUMENTACIÓN DE REGISTROS DE CYBERSEGURIDAD
+# IMAGE ENCRYPT
 
-<a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Registros%20Español-000000" alt="Registros Español" /></a>
-<a href="https://github.com/GabrielLugooo/CiberSec-Logs-English" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Registros%20Inglés-green" alt="Registros Inglés" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20Versión%20Inglés-000000" alt="Versión Inglés" /></a>
+<a href="https://github.com/GabrielLugooo/Image-Encrypt/blob/main/README%20Spanish.md" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Image%20Encrypt%20%20Versión%20Español-green" alt="Versión Español" /></a>
 
-### Objetivos
+### Objectivos
 
-El proyecto Cybersecurity Logs Documentation tiene como objetivo centralizar y organizar diversos registros de seguridad para mejorar el análisis de ciberseguridad y la detección de amenazas. Al recopilar logs de diferentes fuentes, este repositorio proporciona un conjunto de datos estructurado para la investigación, capacitación y evaluaciones de seguridad en entornos reales.
-
-El propósito principal es facilitar una mejor comprensión del monitoreo de seguridad basado en logs, ayudando a profesionales de ciberseguridad, investigadores y entusiastas a analizar patrones, identificar anomalías y mejorar las estrategias de respuesta ante incidentes. La documentación incluye explicaciones detalladas sobre formatos de logs, eventos clave de seguridad y mejores prácticas para la gestión de registros.
-
-Esta recopilación es un recurso valioso para la implementación de sistemas SIEM (Security Information and Event Management), investigaciones forenses y mecanismos automatizados de detección de amenazas. Ayuda a los usuarios a simular y estudiar escenarios de ataque basados en datos reales, contribuyendo a una defensa cibernética proactiva.
-
-Al consolidar estos logs en un único repositorio, buscamos crear una base de conocimiento integral que respalde el aprendizaje, el desarrollo de herramientas de seguridad y la mitigación efectiva de amenazas cibernéticas.
+Image Encrypt Es un CLI que encripta y desencripta imágenes png, jpg, jpeg a una imagen sin sentido y le proporciona la clave para desbloquearla más tarde para que tenga el control total de sus imágenes.
 
 ### Habilidades Aprendidas
 
-- Comprensión avanzada de los conceptos de SIEM y su aplicación práctica.
-- Competencia en el análisis e interpretación de registros de red.
-- Capacidad para generar y reconocer firmas y patrones de ataques.
-- Mayor conocimiento de los protocolos de red y vulnerabilidades de seguridad.
-- Desarrollo de habilidades de pensamiento crítico y resolución de problemas en ciberseguridad.
+- Tecnologías Node JS.
+- Proteger la información en imágenes mediante técnicas de cifrado y descifrado.
+- Capacidad para generar y reconocer firmas y patrones de ataque.
+- Mejorar el conocimiento de los protocolos de red y las vulnerabilidades de seguridad.
+- Desarrollo de pensamiento crítico y habilidades de resolución de problemas en ciberseguridad.
 
-### Herramientas Usadas
+### Technologías Usadas
 
-- Sistemas de Gestión de Eventos e Información de Seguridad (SIEM) (Google SecOps y Splunk) para ingesta y análisis de logs.
-- Herramientas de análisis de red (TCPDump, Wireshark) para captura y examen de tráfico de red.
-- Análisis de red y algoritmos creados con lenguajes de código (Linux, SQL, Python) para la automatización de la captura, examen y análisis de tráfico de red.
-- Herramientas de generación de telemetría para crear escenarios realistas de tráfico de red y ataques.
+![Node](https://img.shields.io/badge/NodeJS-05122A?style=for-the-badge&logo=node.js)&nbsp;
 
-### Categorías de Registros:
+### Vista Previa
 
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Auditorias" target="_blank" rel="noreferrer noopener">Registros Auditorías</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Control%20Acceso" target="_blank" rel="noreferrer noopener">Registros Control Acceso</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Evaluacion%20Vulnerabilidades" target="_blank" rel="noreferrer noopener">Registros Evaluación Vulnerabilidades</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Incidentes" target="_blank" rel="noreferrer noopener">Registros Incidentes</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Indicadores%20IOC" target="_blank" rel="noreferrer noopener">Indicadores IOC</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/PASTA" target="_blank" rel="noreferrer noopener">Registros PASTA</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Phishing" target="_blank" rel="noreferrer noopener">Registros Phishing</a>
-- <a href="https://github.com/GabrielLugooo/CiberSec-Logs-Spanish/tree/main/Registro%20Riesgos" target="_blank" rel="noreferrer noopener">Registros Riesgos</a>
+<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
 
----
+### Instalación
+
+```sh
+npm i -g ImageEncrypt
+```
+
+### Modo de Uso
+
+```sh
+ImageEncrypt <command> [option]
+```
+
+o ejecutarlo directamente usando npx
+
+```sh
+npx ImageEncrypt <command> [option]
+```
+
+#### Comandos
+
+```sh
+help  #prints help info
+```
+
+#### Opciones
+
+```sh
+  -e, --encrypt              # La imagen to encriptar
+  -d, --decrypt              # La imagen to desencriptar
+  -c, --clear                # Limpiar la consola predeterminada: false
+  --noClear                  # No limpiar la consola predeterminada: true
+  -v, --version              # Impresión de la Versión predeterminada de la CLI: false
+  -k, --key                  # La clave predeterminada a utilizar para el descifrado: false
+  -i, --outputImageFileName  # La imagen de salida
+  -p, --outputKeyFileName    # La clave de salida
+```
+
+### Ejemplos
+
+#### Comandos
+
+- Para cifrar una imagen myImage.png a encryptedImage.png y guardando la clave a key.txt:
+
+```sh
+ImageEncrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
+```
+
+Salida:
+
+```sh
+ ImageEncrypt  v0.0.1
+An image encryption node-js cli
+
+✔ Image read successfully
+✔ Output image file name is valid
+✔ Output key file name is valid
+✔ Image data read successfully
+✔ Key generated successfully
+✔ Image encrypted successfully
+✔ Image saved successfully
+✔ Key saved successfully
+
+✔  Image encrypted successfully  Image encrypted successfully:
+                                  Encrypted image: encryptedImageName.png
+                                  Key: keyFile.txt
+
+```
+
+- Para descifrar una imagen encryptedImage.png con su llave key.txt a decryptedImage.png:
+
+```sh
+ImageEncrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
+```
+
+Salida:
+
+```sh
+ ImageEncrypt  v0.0.1
+An image encryption node-js cli
+
+✔ Image read successfully
+✔ Key read successfully
+✔ Decryption successful
+✔ Image saved successfully
+✔  Success  Image decrypted successfully
+
+                        Decrypted Image: decryptedImage.png
+
+```
+
+### Limitaciones
+
+Si bien el cifrado y descifrado es perfecto en las imágenes png, en jpg y jpeg, el funcionamiento no es perfecto. Las imágenes jpg y jpeg tienen pérdidas y, durante el cifrado y descifrado, se modifican algunos valores de píxeles. Sin embargo, la imagen descifrada es muy similar a la imagen original, pero con algunos píxeles modificados.
+
+ImageEncrypt es una copia con fines educativos de <a href="https://github.com/theninza/imcrypt">Imcrypt</a> bajo MIT License.
+
+----
 
 <h3 align="left">Conecta Conmigo</h3>
 
@@ -64,4 +144,4 @@ Al consolidar estos logs en un único repositorio, buscamos crear una base de co
 
 <a href="https://linktr.ee/gabriellugooo" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/Créditos-Gabriel%20Lugo-green" alt="Créditos" /></a>
 <img align="center" src="https://komarev.com/ghpvc/?username=GabrielLugoo&label=Vistas%20del%20Perfil&color=green&base=2000" alt="GabrielLugooo" />
-<a href="" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/License-MIT-green" alt="Last Edited" /></a>
+<a href="" target="_blank" rel="noreferrer noopener"> <img align="center" src="https://img.shields.io/badge/License-MIT-green" alt="MIT License" /></a>

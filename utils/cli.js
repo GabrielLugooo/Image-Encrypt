@@ -50,7 +50,7 @@ const commands = {
 };
 
 const helpText = meowHelp({
-	name: `imcrypt`,
+	name: `ImageEncrypt`,
 	flags,
 	commands
 });

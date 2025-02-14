@@ -1,10 +1,8 @@
 #!/usr/bin/env node
 
 /**
- * imcrypt
+ * ImageEncrypt
  * An image encryption node-js cli
- *
- * @author theninza <https://theninza.me>
  */
 
 const init = require('./utils/init');
@@ -27,13 +25,4 @@ const { clear } = flags;
 		await decrypt(flags);
 	}
 
-	// footer to show when the program is finished
-
-	const chalk = (await import(`chalk`)).default;
-
-	// print Give it a star on github: https://github.com/theninza/imcrypt with chalk and bgMagenta
-	console.log(
-		chalk.bgMagenta(` Give it a star on github: `) +
-			chalk.bold(` https://github.com/theninza/imcrypt `)
-	);
 })();

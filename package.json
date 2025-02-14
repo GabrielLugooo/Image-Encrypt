@@ -1,15 +1,13 @@
 {
-	"name": "imcrypt",
+	"name": "ImageEncrypt",
 	"description": "An image encryption node-js cli",
-	"version": "1.0.1",
+	"version": "0.1",
 	"license": "MIT",
 	"bin": {
-		"imcrypt": "index.js"
+		"ImageEncrypt": "index.js"
 	},
-	"author": "theninza <niks.a3198@gmail.com> (https://theninza.me)",
 	"keywords": [
-		"imcrypt",
-		"theninza",
+		"ImageEncrypt",
 		"encrypt",
 		"decrypt",
 		"image",
@@ -37,14 +35,5 @@
 	},
 	"devDependencies": {
 		"prettier": "^2.5.1"
-	},
-	"main": "index.js",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/TheNinza/imcrypt.git"
-	},
-	"bugs": {
-		"url": "https://github.com/TheNinza/imcrypt/issues"
-	},
-	"homepage": "https://github.com/TheNinza/imcrypt#readme"
+	}
 }
