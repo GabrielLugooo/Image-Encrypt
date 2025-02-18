@@ -23,7 +23,7 @@ Image Encrypt it's a CLI that encrypts and decrypts png, jpg, jpeg images to a g
 
 ### Preview
 
-<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot" border="0"></a>
+<a href="https://ibb.co/C0qF3fJ" target="_blank" rel="noreferrer noopener"><img align="center" src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Preview" height="100" ></a>
 
 ### Installation
 
