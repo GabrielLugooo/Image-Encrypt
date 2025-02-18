@@ -87,7 +87,7 @@ An image encryption node-js cli
 ✔ Image saved successfully
 ✔ Key saved successfully
 
-✔  Image encrypted successfully  Image encrypted successfully:
+✔ Image encrypted successfully  Image encrypted successfully:
                                   Encrypted image: encryptedImageName.png
                                   Key: keyFile.txt
 
@@ -109,9 +109,8 @@ An image encryption node-js cli
 ✔ Key read successfully
 ✔ Decryption successful
 ✔ Image saved successfully
-✔  Success  Image decrypted successfully
 
-                        Decrypted Image: decryptedImage.png
+✔ Image decrypted successfully  Decrypted Image: decryptedImage.png
 
 ```
 
