@@ -90,7 +90,6 @@ An image encryption node-js cli
 ✔ Image encrypted successfully
 Encrypted image: encryptedImageName.png
 Key: keyFile.txt                              
-
 ```
 
 - For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png:
@@ -102,7 +101,7 @@ ImageEncrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
 Output:
 
 ```sh
-ImageEncrypt v0.0.1 by theninza
+ImageEncrypt v0.0.1
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -112,7 +111,6 @@ An image encryption node-js cli
 
 ✔ Image decrypted successfully
 Decrypted Image: decryptedImage.png
-
 ```
 
 ### Limitations
