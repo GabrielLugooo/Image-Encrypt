@@ -19,11 +19,11 @@ Image Encrypt Es un CLI que encripta y desencripta imágenes png, jpg, jpeg a un
 
 ### Technologías Usadas
 
-![Node](https://img.shields.io/badge/NodeJS-05122A?style=for-the-badge&logo=node.js)&nbsp;
+![Static Badge](https://img.shields.io/badge/Node.JS-000000?logo=nodedotjs&logoSize=auto)
 
 ### Vista Previa
 
-<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
+<a href="https://ibb.co/C0qF3fJ" target="_blank" rel="noreferrer noopener"><img align="center" src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Preview" height="100" ></a>
 
 ### Instalación
 
@@ -75,7 +75,7 @@ ImageEncrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
 Salida:
 
 ```sh
-ImageEncrypt  v0.0.1
+ImageEncrypt v0.0.1
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -87,10 +87,9 @@ An image encryption node-js cli
 ✔ Image saved successfully
 ✔ Key saved successfully
 
-✔  Image encrypted successfully  Image encrypted successfully:
-                                  Encrypted image: encryptedImageName.png
-                                  Key: keyFile.txt
-
+✔ Image encrypted successfully  
+Encrypted image: encryptedImageName.png
+Key: keyFile.txt
 ```
 
 - Para descifrar una imagen encryptedImage.png con su llave key.txt a decryptedImage.png:
@@ -109,10 +108,9 @@ An image encryption node-js cli
 ✔ Key read successfully
 ✔ Decryption successful
 ✔ Image saved successfully
-✔  Success  Image decrypted successfully
 
-                        Decrypted Image: decryptedImage.png
-
+✔ Image decrypted successfully
+Decrypted Image: decryptedImage.png
 ```
 
 ### Limitaciones

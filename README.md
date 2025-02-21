@@ -19,12 +19,11 @@ Image Encrypt it's a CLI that encrypts and decrypts png, jpg, jpeg images to a g
 
 ### Technologies Used
 
-![Javascript](https://img.shields.io/badge/Javascript-05122A?style=for-the-badge&logo=javascript)
-![Node](https://img.shields.io/badge/NodeJS-05122A?style=for-the-badge&logo=node.js)
+![Static Badge](https://img.shields.io/badge/Node.JS-000000?logo=nodedotjs&logoSize=auto)
 
 ### Preview
 
-<a href="https://ibb.co/C0qF3fJ"><img src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Screenshot-2021-12-16-at-2-11-16-PM" border="0"></a>
+<a href="https://ibb.co/C0qF3fJ" target="_blank" rel="noreferrer noopener"><img align="center" src="https://i.ibb.co/5cdVgPY/Screenshot-2021-12-16-at-2-11-16-PM.png" alt="Preview" height="100" ></a>
 
 ### Installation
 
@@ -88,10 +87,9 @@ An image encryption node-js cli
 ✔ Image saved successfully
 ✔ Key saved successfully
 
-✔  Image encrypted successfully  Image encrypted successfully:
-                                  Encrypted image: encryptedImageName.png
-                                  Key: keyFile.txt
-
+✔ Image encrypted successfully
+Encrypted image: encryptedImageName.png
+Key: keyFile.txt                              
 ```
 
 - For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png:
@@ -103,17 +101,16 @@ ImageEncrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
 Output:
 
 ```sh
-ImageEncrypt v0.0.1 by theninza
+ImageEncrypt v0.0.1
 An image encryption node-js cli
 
 ✔ Image read successfully
 ✔ Key read successfully
 ✔ Decryption successful
 ✔ Image saved successfully
-✔  Success  Image decrypted successfully
 
-                        Decrypted Image: decryptedImage.png
-
+✔ Image decrypted successfully
+Decrypted Image: decryptedImage.png
 ```
 
 ### Limitations
